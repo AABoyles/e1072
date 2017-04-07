@@ -1,6 +1,6 @@
 ## cmeans clustering should also work on data frames
 
-library(e1071)
+library(e1072)
 data(iris)
 set.seed(123)
 cm1 <- cmeans(iris[,1:4], 10)
